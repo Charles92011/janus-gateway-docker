@@ -51,7 +51,7 @@ RUN cd /tmp && \
 RUN cd /tmp && \
 	git clone https://github.com/meetecho/janus-gateway && \
         cd janus-gateway && \
-        git checkout tags/v1.0.0 -b v1.0.0 && \
+        git checkout tags/v1.0.1 -b v1.0.1 && \
 	/tmp/janus-gateway/autogen.sh && \
 	/tmp/janus-gateway/configure --enable-post-processing --prefix=/usr/local && \
 	make && \
